@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+    <title>TriviaGame</title>
+</head>
+
+<body>
+    <div id="startScreen" class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <h1 class="title">Phish Trivia Game</h1>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <button id="startButton">Start</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="gameScreen">
+
+        <h1 class="title">Phish Trivia Game</h1> <br>
+
+        <p>You have 45 seconds to answer all the questions! GO!!</p> <br>
+
+        <div id="timer"></div> <br>
+
+
+        <div id="questions">
+
+            <h3>What is Mike Gordon's nickname ?</h3> <br>
+
+            <input type="radio" name="Q1" value="Big Red"> Big Red <br>
+            <input type="radio" name="Q1" value="Leo"> Leo <br>
+            <input type="radio" name="Q1" value="Cactus"> Cactus <br>
+            <input type="radio" name="Q1" value="Fishman"> Fishman <br>
+            <br>
+
+            <h3>What festival did Phish play a 7.5 hour set of music?</h3> <br>
+
+            <input type="radio" name="Q2" value="IT"> IT <br>
+            <input type="radio" name="Q2" value="Lemon Wheel"> Lemon Wheel <br>
+            <input type="radio" name="Q2" value="Magna Ball"> Magna Ball <br>
+            <input type="radio" name="Q2" value="Big Cypress"> Big Cypress <br>
+            <br>
+
+            <h3>What Beatles album did Phish cover in 1994 on Halloween?</h3> <br>
+
+            <input type="radio" name="Q3" value="Sgt. Peppers"> Sgt. Peppers <br>
+            <input type="radio" name="Q3" value="The White Album"> The White Album <br>
+            <input type="radio" name="Q3" value="Abbey Road"> Abbey Road <br>
+            <input type="radio" name="Q3" value="Let It Be"> Let It Be <br>
+            <br>
+
+            <h3>What does the drummer, Jon Fishman, wear at ever show?</h3> <br>
+
+            <input type="radio" name="Q4" value="Dress"> Dress <br>
+            <input type="radio" name="Q4" value="Suit"> Suit <br>
+            <input type="radio" name="Q4" value="Wig"> Wig <br>
+            <input type="radio" name="Q4" value="Uggs"> Uggs <br>
+            <br>
+
+            <h3>What year did Phish form?</h3> <br>
+
+            <input type="radio" name="Q5" value="1993"> 1993 <br>
+            <input type="radio" name="Q5" value="1973"> 1973 <br>
+            <input type="radio" name="Q5" value="2003"> 2003 <br>
+            <input type="radio" name="Q5" value="1983"> 1983 <br>
+            <br>
+
+            <h3>What's the name of the evil ruler of Gamehendge?</h3> <br>
+
+            <input type="radio" name="Q6" value="Darth Vadar"> Darth Vadar <br>
+            <input type="radio" name="Q6" value="Wilson"> Wilson <br>
+            <input type="radio" name="Q6" value="Chthulhu"> Chthulhu<br>
+            <input type="radio" name="Q6" value="Bob"> Bob <br>
+            <br>
+
+            <h3>What is Jimmy's cats name??</h3> <br>
+
+            <input type="radio" name="Q7" value="Kitty"> Kitty <br>
+            <input type="radio" name="Q7" value="Mittens"> Mittens <br>
+            <input type="radio" name="Q7" value="Rutherford"> Rutherford <br>
+            <input type="radio" name="Q7" value="Poster Nutbag"> Poster Nutbag <br>
+            <br>
+
+            <h3>Who is Leo?</h3> <br>
+
+            <input type="radio" name="Q8" value="Page"> Page <br>
+            <input type="radio" name="Q8" value="Trey"> Trey <br>
+            <input type="radio" name="Q8" value="Mike"> Mike <br>
+            <input type="radio" name="Q8" value="Fishman"> Fishman <br>
+            <br>
+
+            <button id="doneButton">Done</button>
+
+        </div>
+
+    </div>
+
+    <div id="endScreen">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+
+                    <h1 class="title">Phish Trivia Game</h1>
+
+
+                    <h3>You're Score</h3>
+                    <br>
+
+                    <p>Correct Answer:<span id="correct_score"></span></p><br>
+                    <p>Incorrect Answers:<span id="incorrect_score"></span></p><br>
+                    <p>Unanswered:<span id="unanswered_score"></span></p>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>

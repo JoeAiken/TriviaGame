@@ -1,0 +1,8 @@
+Screen loads with html and css and a start button
+Once the user clicks the start button the game begins
+A timer begins counting down from 30 seconds
+The user has 30 seconds to select all/ or as many as they can answers
+The user may only select one answer per question
+If the timer hits 0 then the user will no longer be able to select answers and will have score tallied
+Otherwise the player can click a done button which will tally users score
+The tallied score will show answers correct, answers incorrect, and unanswered

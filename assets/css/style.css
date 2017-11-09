@@ -1,0 +1,71 @@
+body {
+    background-image: url("http://i.imgur.com/DVLmmlD.png?1");
+    background-attachment: fixed;
+    color: white;
+}
+
+.title {
+
+    color: white;
+    font-family: cursive;
+    font-size: 55px
+}
+
+#startScreen {
+
+    text-align: center;
+    margin-top: 15%;
+
+}
+
+#gameScreen {
+    text-align: center;
+}
+
+#endScreen {
+
+    text-align: center;
+
+}
+
+#startButton {
+    font-weight: bolder;
+    color: red;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 20px 50px 20px 50px;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+
+#questions {
+
+    color: white;
+    font-family: cursive
+}
+
+#doneButton {
+
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding: 25px 50px 25px 50px;
+    color: green;
+    font-family: cursive;
+    font-size: 30px
+}
+
+#endScreen {
+
+    color: white;
+    font-family: cursive;
+    font-size: x-large;
+
+}
+
+p,
+#timer {
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
